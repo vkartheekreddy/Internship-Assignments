@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Forms Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div="container">
+        <h1>Company Directory Portal</h1>
+        <div class="main">
+            <h2>Employee Registration Form</h2>
+            <form action="form">
+                <label for="FullName">Full Name :</label>
+                <input type="text" id="FullName" name="name" required>
+
+                <label for="Email">Email :</label>
+                <input type="email" id="Email" name="email" required>
+
+                <label for="Department">Department :</label>
+                <select>
+                    <option value="IT">IT</option>
+                    <option value="HR">HR</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                </select>
+
+                <label for="EmployeeID">Employee ID :</label>
+                <input type="number" id="EmployeeID" name="number" required>
+
+                <label for="profile">Profile Picture URL :</label>
+                <input type="url" id="profile" name="profile" required>
+
+                <button>Register Employeee</button>
+            </form>
+        </div>
+
+        <div class="main2">
+            <h2>Employee List</h2>
+            <ol type="1">
+                <li><a href="#">John Doe - john@example.com</a></li>
+
+                <hr>
+
+                <li><a href="#">Jane Smith - janen@example.com</a></li>
+
+                <hr>
+            </ol>
+        </div>
+
+        <div class="main3">
+            <h2>Employee Details</h2>
+
+            <table border="1px">
+
+            <tr>
+                <th>Name</th>
+                <th>Employee ID</th>
+                <th>Department</th>
+                <th>Profile Picture</th>
+            </tr>
+
+            <tr>
+                <td>John Doe</td>
+                <td>12345</td>
+                <td>IT</td>
+                <td><img src="https://img.freepik.com/free-photo/confident-young-businessman-suit-standing-with-arms-folded_171337-18599.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1727222400&semt=ais_hybrid" alt=""></td>
+            </tr>
+
+            <tr>
+
+                <td>Jane Smith</td>
+                <td>67890</td>
+                <td>HR</td>
+                <td><img src="https://img.freepik.com/free-photo/close-up-photo-young-successful-business-man-black-suit_171337-9509.jpg" alt=""></td>
+            
+            </tr>
+
+            </table>
+
+
+        </div>
+
+        <div class="main4">
+            <h2>Company Location</h2>
+            <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=78.355%2C17.315%2C78.675%2C17.545&layer=mapnik" frameborder="0"></iframe>
+
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>
